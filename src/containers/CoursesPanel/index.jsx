@@ -28,9 +28,6 @@ export const CoursesPanel = () => {
     <div className="course-list-container">
       <div className="course-list-heading-container">
         <h2 className="course-list-title">{formatMessage(messages.myCourses)}</h2>
-        <div className="course-filter-controls-container">
-          <CourseFilterControls {...courseListData.filterOptions} />
-        </div>
       </div>
       {hasCourses ? <CourseListSlot courseListData={courseListData} /> : <NoCoursesViewSlot />}
     </div>
