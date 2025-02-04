@@ -14,7 +14,7 @@ const getLearnerHeaderMenu = (
     {
       type: 'item',
       href: '/',
-      content: formatMessage(messages.course),
+      content: 'Course',
       isActive: true,
     },
     ...(getConfig().ENABLE_PROGRAMS ? [{
