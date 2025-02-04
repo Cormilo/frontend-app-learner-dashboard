@@ -19,29 +19,7 @@ export const LookingForChallengeWidget = () => {
   const { courseSearchUrl } = reduxHooks.usePlatformSettingsData();
   const hyperlinkDestination = baseAppUrl(courseSearchUrl) || '';
 
-  return (
-    <Card orientation="horizontal" id="looking-for-challenge-widget">
-      <Card.ImageCap
-        src={moreCoursesSVG}
-        srcAlt="course side widget"
-      />
-      <Card.Body className="m-auto pr-2">
-        <h4>
-          {formatMessage(messages.lookingForChallengePrompt)}
-        </h4>
-        <h5>
-          <Hyperlink
-            variant="brand"
-            destination={hyperlinkDestination}
-            onClick={findCoursesWidgetClicked(hyperlinkDestination)}
-            className="d-flex align-items-center"
-          >
-            {formatMessage(messages.findCoursesButton, { arrow: arrowIcon })}
-          </Hyperlink>
-        </h5>
-      </Card.Body>
-    </Card>
-  );
+
 };
 
 LookingForChallengeWidget.propTypes = {};
