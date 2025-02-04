@@ -25,7 +25,7 @@ const getLearnerHeaderMenu = (
     {
       type: 'item',
       href: `${urls.baseAppUrl(courseSearchUrl)}`,
-      content: formatMessage(messages.discoverNew),
+      content: 'All courses',
       onClick: (e) => {
         exploreCoursesClick(e);
       },
