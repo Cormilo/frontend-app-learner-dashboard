@@ -46,7 +46,7 @@ const messages = defineMessages({
     description: 'Message to learners to contact billing for certificate refunds',
     defaultMessage: 'If you would like a refund on your Certificate of Achievement, please contact us.',
   },
-  passingGrade: {
+  passingGradeEn: {
     id: 'learner-dash.courseCard.banners.passingGrade',
     description: 'Message to learners with minimum passing grade for the course',
     defaultMessage: 'Grade required to pass the course: {minPassingGrade}\u200f%',
