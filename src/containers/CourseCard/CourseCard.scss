@@ -25,8 +25,18 @@
       .pgn__action-row {
         align-self: flex-end;
         white-space: nowrap;
+
       }
     }
+
+  .btn-primary {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+  }
+  .btn-primary:hover {
+    background-color: #fff;
+    color: #ff0000;
+  }
 
     .course-card-verify-ribbon-container {
       width: 100%;
