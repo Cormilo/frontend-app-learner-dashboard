@@ -100,7 +100,7 @@ jest.mock('@openedx/paragon', () => jest.requireActual('testUtils').mockNestedCo
     Menu: 'Dropdown.Menu',
     Toggle: 'Dropdown.Toggle',
     Header: 'Dropdown.Header',
-
+    Divider: 'Dropdown.Divider',
   },
   Form: {
     Checkbox: 'Form.Checkbox',
