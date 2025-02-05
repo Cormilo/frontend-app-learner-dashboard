@@ -55,7 +55,7 @@ export const CertificateBanner = ({ cardId }) => {
   if (!isPassing) {
     if (isAudit) {
       return (
-      
+        ' '
       );
     }
     if (isArchived) {
