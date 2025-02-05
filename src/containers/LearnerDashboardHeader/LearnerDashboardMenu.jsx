@@ -45,12 +45,7 @@ const getLearnerHeaderMenu = (
         {
           type: 'item',
           href: `${getConfig().ACCOUNT_PROFILE_URL}/u/${authenticatedUser?.username}`,
-          content: formatMessage(messages.profile),
-        },
-        {
-          type: 'item',
-          href: `${getConfig().ACCOUNT_SETTINGS_URL}`,
-          content: formatMessage(messages.account),
+          content: 'Profile',
         },
         ...(getConfig().ORDER_HISTORY_URL ? [{
           type: 'item',
