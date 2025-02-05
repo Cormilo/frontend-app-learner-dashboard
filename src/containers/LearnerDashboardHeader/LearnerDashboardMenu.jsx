@@ -42,11 +42,6 @@ const getLearnerHeaderMenu = (
     {
       heading: '',
       items: [
-        {
-          type: 'item',
-          href: `${getConfig().ACCOUNT_PROFILE_URL}/u/${authenticatedUser?.username}`,
-          content: 'Profile',
-        },
         ...(getConfig().ORDER_HISTORY_URL ? [{
           type: 'item',
           href: getConfig().ORDER_HISTORY_URL,
