@@ -56,7 +56,7 @@ export const CertificateBanner = ({ cardId }) => {
     if (isAudit) {
       return (
         <Banner>
-          "Grade required to pass course: 50%"
+          Grade required to pass course: 50%
         </Banner>
       );
     }
