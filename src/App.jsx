@@ -80,7 +80,7 @@ export const App = () => {
       <div>
         <AppWrapper>
           <LearnerDashboardHeader />
-          <main>
+          <main style={{ minHeight: "80vh"}} >
             {hasNetworkFailure
               ? (
                 <Alert variant="danger">
