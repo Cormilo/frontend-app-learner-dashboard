@@ -70,7 +70,7 @@ export const App = () => {
         logError(error);
       }
     }
-    document.cookie = "openedx-language-preference=en; path=/; max-age=31536000; domain=.yourdomain.com; SameSite=None;Priority=Hight";
+    document.cookie = "openedx-language-preference=en; path=/; max-age=31536000; domain=.yourdomain.com; SameSite=None;Priority=Midle";
   }, [authenticatedUser, loadData]);
   return (
     <>
