@@ -41,7 +41,7 @@ subscribe(APP_READY, () => {
     </AppProvider>,
     document.getElementById('root'),
   );
-  document.cookie = "openedx-language-preference=en; path=/; max-age=31536000; domain=.yourdomain.com; SameSite=None;";
+  document.cookie = "openedx-language-preference=en; path=/; max-age=31536000; domain=.pt.edtechlab.local; SameSite=None;";
 });
 
 subscribe(APP_INIT_ERROR, (error) => {
